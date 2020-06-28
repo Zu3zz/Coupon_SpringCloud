@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/Tmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/conf/JacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/conf/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/advice/CommonResponseDataAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/annotation/GlobalExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/annotation/IgnoreResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/CouponCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/DistributeTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/PeriodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/ProductLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/exception/CouponException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com.zth.coupon/TemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/zth/coupon/ZuulGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/zth/coupon/ZuulGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -66,6 +80,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,12 +89,26 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.TemplateApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="coupon-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zth.coupon.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="coupon-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zth.coupon.TemplateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TemplateApplication" />
         <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       </list>
     </recent_temporary>
@@ -114,7 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1592967719914</updated>
       <workItem from="1592967722416" duration="1125000" />
-      <workItem from="1593072900005" duration="7304000" />
+      <workItem from="1593072900005" duration="7419000" />
+      <workItem from="1593238093029" duration="5626000" />
+      <workItem from="1593273251867" duration="372000" />
+      <workItem from="1593277319792" duration="46000" />
+      <workItem from="1593277380340" duration="14000" />
+      <workItem from="1593310580767" duration="1002000" />
+      <workItem from="1593317718035" duration="569000" />
+      <workItem from="1593318305540" duration="5349000" />
     </task>
     <servers />
   </component>
@@ -122,45 +159,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1593192079357">
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1593239125467">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1593192079357" />
-    <state width="946" height="207" key="GridCell.Tab.0.bottom" timestamp="1593191555010">
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1593239125467" />
+    <state width="1017" height="223" key="GridCell.Tab.0.bottom" timestamp="1593326132253">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555010" />
-    <state width="946" height="207" key="GridCell.Tab.0.center" timestamp="1593191555009">
+    <state width="1017" height="223" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
+    <state width="1017" height="223" key="GridCell.Tab.0.center" timestamp="1593326132253">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555009" />
-    <state width="946" height="207" key="GridCell.Tab.0.left" timestamp="1593191555008">
+    <state width="1017" height="223" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
+    <state width="1017" height="223" key="GridCell.Tab.0.left" timestamp="1593326132253">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555008" />
-    <state width="946" height="207" key="GridCell.Tab.0.right" timestamp="1593191555009">
+    <state width="1017" height="223" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
+    <state width="1017" height="223" key="GridCell.Tab.0.right" timestamp="1593326132253">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555009" />
-    <state width="946" height="207" key="GridCell.Tab.1.bottom" timestamp="1593191555011">
+    <state width="1017" height="223" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
+    <state width="1017" height="223" key="GridCell.Tab.1.bottom" timestamp="1593326132254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555011" />
-    <state width="946" height="207" key="GridCell.Tab.1.center" timestamp="1593191555011">
+    <state width="1017" height="223" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
+    <state width="1017" height="223" key="GridCell.Tab.1.center" timestamp="1593326132254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555011" />
-    <state width="946" height="207" key="GridCell.Tab.1.left" timestamp="1593191555010">
+    <state width="1017" height="223" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
+    <state width="1017" height="223" key="GridCell.Tab.1.left" timestamp="1593326132254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555010" />
-    <state width="946" height="207" key="GridCell.Tab.1.right" timestamp="1593191555011">
+    <state width="1017" height="223" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
+    <state width="1017" height="223" key="GridCell.Tab.1.right" timestamp="1593326132254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="946" height="207" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593191555011" />
-    <state x="434" y="145" key="new project wizard" timestamp="1593191589312">
+    <state width="1017" height="223" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
+    <state x="481" y="153" key="SettingsEditor" timestamp="1593324598572">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="145" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593191589312" />
+    <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593324598572" />
+    <state x="434" y="145" key="new project wizard" timestamp="1593272692987">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="434" y="145" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593272692987" />
+    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1593324057087">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593324057087" />
   </component>
 </project>

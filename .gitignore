@@ -1,0 +1,7 @@
+/.idea
+coupon-eureka/src/test/
+coupon-eureka/target/generated-sources/
+coupon-gateway/src/test/
+coupon-gateway/target/generated-sources/
+coupon-service/coupon-common/src/main/resources/
+coupon-service/coupon-common/src/test/
