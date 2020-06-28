@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/advice/CommonResponseDataAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/annotation/GlobalExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/CouponCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/DistributeTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/PeriodType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/ProductLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/exception/CouponException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/CommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com.zth.coupon/TemplateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/CouponTemplateSDK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/zth/coupon/ZuulGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/zth/coupon/ZuulGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/PeriodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/PeriodType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +133,7 @@
       <workItem from="1593277380340" duration="14000" />
       <workItem from="1593310580767" duration="1002000" />
       <workItem from="1593317718035" duration="569000" />
-      <workItem from="1593318305540" duration="5349000" />
+      <workItem from="1593318305540" duration="7568000" />
     </task>
     <servers />
   </component>

@@ -31,7 +31,7 @@ public enum PeriodType {
      */
     private Integer code;
 
-    public static PeriodType of(String code) {
+    public static PeriodType of(Integer code) {
         Objects.requireNonNull(code);
         return Stream.of(values())
                 .filter(bean -> bean.code.equals(code)).findAny()
