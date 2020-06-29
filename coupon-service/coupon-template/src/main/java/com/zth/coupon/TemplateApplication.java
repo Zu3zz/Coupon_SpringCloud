@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * @author 3zZ.
- * Date: 2020/6/28
+ * Date: 2020/6/29.
  * 模板微服务的启动入口
  */
 @EnableScheduling

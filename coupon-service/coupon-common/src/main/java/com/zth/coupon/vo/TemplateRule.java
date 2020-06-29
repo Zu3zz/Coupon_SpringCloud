@@ -41,7 +41,7 @@ public class TemplateRule {
     private String weight;
 
     /**
-     * <h2>校验功能</h2>
+     * 校验功能
      */
     public boolean validate() {
 
@@ -49,6 +49,7 @@ public class TemplateRule {
                 && limitation > 0 && usage.validate()
                 && StringUtils.isNotEmpty(weight);
     }
+
     /**
      * 内部类: 折扣, 需要与类型配合决定
      */
@@ -57,10 +58,10 @@ public class TemplateRule {
     @AllArgsConstructor
     public static class Discount {
 
-        /** 额度: 满减(20), 折扣(85), 立减(10) */
+        // 额度: 满减(20), 折扣(85), 立减(10)
         private Integer quota;
 
-        /** 基准, 需要满多少才可用 */
+        //  基准, 需要满多少才可用
         private Integer base;
 
         boolean validate() {
@@ -77,13 +78,13 @@ public class TemplateRule {
     @AllArgsConstructor
     public static class Expiration {
 
-        /** 有效期规则, 对应 PeriodType 的 code 字段 */
+        // 有效期规则, 对应 PeriodType 的 code 字段
         private Integer period;
 
-        /** 有效间隔: 只对变动性有效期有效 */
+        // 有效间隔: 只对变动性有效期有效
         private Integer gap;
 
-        /** 优惠券模板的失效日期, 两类规则都有效 */
+        // 优惠券模板的失效日期, 两类规则都有效
         private Long deadline;
 
         boolean validate() {
@@ -91,6 +92,7 @@ public class TemplateRule {
             return null != PeriodType.of(period) && gap > 0 && deadline > 0;
         }
     }
+
     /**
      * 内部类: 优惠券使用范围
      */
@@ -99,17 +101,16 @@ public class TemplateRule {
     @AllArgsConstructor
     public static class Usage {
 
-        /** 省份 */
+        // 省份
         private String province;
 
-        /** 城市 */
+        // 城市
         private String city;
 
-        /** 商品类型, list[文娱, 生鲜, 家居, 全品类] */
+        // 商品类型, list[文娱, 生鲜, 家居, 全品类]
         private String goodsType;
 
         boolean validate() {
-
             return StringUtils.isNotEmpty(province)
                     && StringUtils.isNotEmpty(city)
                     && StringUtils.isNotEmpty(goodsType);

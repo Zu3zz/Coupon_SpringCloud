@@ -31,7 +31,7 @@ public enum ProductLine {
      */
     private Integer code;
 
-    public static ProductLine of(String code) {
+    public static ProductLine of(Integer code) {
         Objects.requireNonNull(code);
         return Stream.of(values())
                 .filter(bean -> bean.code.equals(code)).findAny()

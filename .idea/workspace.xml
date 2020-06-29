@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/TemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/config/AsyncPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/CouponCategoryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/DistributeTargetConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/ProductLineConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/RuleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/entity/CouponTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/Tmp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/DistributeTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/DistributeTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/ProductLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/ProductLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com.zth.coupon/TemplateApplication.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +29,39 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="coupon" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="coupon" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="coupon" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="imooc_coupon_data: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="coupon" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +96,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -69,7 +115,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RunManager" selected="Spring Boot.TemplateApplication">
@@ -113,6 +159,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -131,7 +189,10 @@
       <workItem from="1593277380340" duration="14000" />
       <workItem from="1593310580767" duration="1002000" />
       <workItem from="1593317718035" duration="569000" />
-      <workItem from="1593318305540" duration="8045000" />
+      <workItem from="1593318305540" duration="9552000" />
+      <workItem from="1593411900616" duration="65000" />
+      <workItem from="1593411985913" duration="5713000" />
+      <workItem from="1593424518741" duration="2736000" />
     </task>
     <servers />
   </component>
@@ -139,10 +200,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1593239125467">
+    <state x="720" y="202" key="#Assign_Data_Sources" timestamp="1593419144207">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1593239125467" />
+    <state x="720" y="202" key="#Assign_Data_Sources/0.23.1680.1027@0.23.1680.1027" timestamp="1593419144207" />
+    <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593419125282">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593419125282" />
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1593433959463">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1593433959463" />
+    <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593412254994">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593412254994" />
     <state width="1017" height="223" key="GridCell.Tab.0.bottom" timestamp="1593326132253">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -175,17 +248,21 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1017" height="223" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state x="481" y="153" key="SettingsEditor" timestamp="1593324598572">
+    <state x="481" y="153" key="SettingsEditor" timestamp="1593424644958">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593324598572" />
+    <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593424644958" />
+    <state x="776" y="172" width="687" height="729" key="find.popup" timestamp="1593433048920">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="776" y="172" width="687" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593433048920" />
     <state x="434" y="145" key="new project wizard" timestamp="1593272692987">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="434" y="145" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593272692987" />
-    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1593324057087">
+    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1593433030745">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593324057087" />
+    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593433030745" />
   </component>
 </project>

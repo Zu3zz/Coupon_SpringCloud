@@ -31,7 +31,7 @@ public enum DistributeTarget {
      */
     private Integer code;
 
-    public static DistributeTarget of(String code) {
+    public static DistributeTarget of(Integer code) {
         Objects.requireNonNull(code);
         return Stream.of(values())
                 .filter(bean -> bean.code.equals(code)).findAny()
