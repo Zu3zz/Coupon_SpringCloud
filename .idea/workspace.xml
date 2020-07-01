@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/TemplateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/config/AsyncPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/CouponCategoryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/DistributeTargetConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/ProductLineConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/RuleConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/entity/CouponTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/dao/CouponTemplateDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/Tmp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/DistributeTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/DistributeTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/ProductLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/ProductLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/TemplateRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com.zth.coupon/TemplateApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/config/AsyncPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/config/AsyncPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/entity/CouponTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/entity/CouponTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +182,7 @@
       <workItem from="1593318305540" duration="9552000" />
       <workItem from="1593411900616" duration="65000" />
       <workItem from="1593411985913" duration="5713000" />
-      <workItem from="1593424518741" duration="2736000" />
+      <workItem from="1593424518741" duration="11063000" />
     </task>
     <servers />
   </component>
@@ -208,10 +198,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593419125282" />
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1593433959463">
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1593506538285">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1593433959463" />
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1593506538285" />
     <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593412254994">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -248,21 +238,21 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1017" height="223" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state x="481" y="153" key="SettingsEditor" timestamp="1593424644958">
+    <state x="481" y="153" key="SettingsEditor" timestamp="1593436952250">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593424644958" />
-    <state x="776" y="172" width="687" height="729" key="find.popup" timestamp="1593433048920">
+    <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593436952250" />
+    <state x="776" y="172" width="687" height="729" key="find.popup" timestamp="1593504930853">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="776" y="172" width="687" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593433048920" />
+    <state x="776" y="172" width="687" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593504930853" />
     <state x="434" y="145" key="new project wizard" timestamp="1593272692987">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="434" y="145" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593272692987" />
-    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1593433030745">
+    <state x="730" y="23" width="838" height="1027" key="search.everywhere.popup" timestamp="1593575841534">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="730" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593433030745" />
+    <state x="730" y="23" width="838" height="1027" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1593575841534" />
   </component>
 </project>

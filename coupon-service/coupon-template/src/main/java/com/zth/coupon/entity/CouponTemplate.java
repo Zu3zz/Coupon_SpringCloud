@@ -3,7 +3,9 @@ package com.zth.coupon.entity;
 import com.zth.coupon.constants.CouponCategory;
 import com.zth.coupon.constants.DistributeTarget;
 import com.zth.coupon.constants.ProductLine;
+import com.zth.coupon.converter.CouponCategoryConverter;
 import com.zth.coupon.converter.DistributeTargetConverter;
+import com.zth.coupon.converter.ProductLineConverter;
 import com.zth.coupon.converter.RuleConverter;
 import com.zth.coupon.vo.TemplateRule;
 import lombok.AllArgsConstructor;
@@ -65,11 +67,13 @@ public class CouponTemplate implements Serializable {
      * 优惠券分类
      */
     @Column(name = "category", nullable = false)
+    @Convert(converter = CouponCategoryConverter.class)
     private CouponCategory category;
     /**
      * 产品线
      */
     @Column(name = "product_line", nullable = false)
+    @Convert(converter = ProductLineConverter.class)
     private ProductLine productLine;
     /**
      * 总数
