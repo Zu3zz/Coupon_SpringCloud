@@ -1,5 +1,6 @@
 package com.zth.coupon.entity;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.zth.coupon.constants.CouponCategory;
 import com.zth.coupon.constants.DistributeTarget;
 import com.zth.coupon.constants.ProductLine;
@@ -7,6 +8,7 @@ import com.zth.coupon.converter.CouponCategoryConverter;
 import com.zth.coupon.converter.DistributeTargetConverter;
 import com.zth.coupon.converter.ProductLineConverter;
 import com.zth.coupon.converter.RuleConverter;
+import com.zth.coupon.serialization.CouponTemplateSerialize;
 import com.zth.coupon.vo.TemplateRule;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -30,6 +32,7 @@ import java.util.Date;
 @Entity
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "coupon_template")
+@JsonSerialize(using = CouponTemplateSerialize.class)
 public class CouponTemplate implements Serializable {
     /**
      * 自增主键
