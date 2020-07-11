@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/serialization/CouponTemplateSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/service/IAsyncService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/service/IBuildTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/vo/TemplateRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/entity/CouponTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/entity/CouponTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/config/AsyncPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/config/AsyncPoolConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -183,7 +186,7 @@
       <workItem from="1593411985913" duration="5713000" />
       <workItem from="1593424518741" duration="11063000" />
       <workItem from="1593870465862" duration="2184000" />
-      <workItem from="1594401548030" duration="979000" />
+      <workItem from="1594401548030" duration="2759000" />
     </task>
     <servers />
   </component>

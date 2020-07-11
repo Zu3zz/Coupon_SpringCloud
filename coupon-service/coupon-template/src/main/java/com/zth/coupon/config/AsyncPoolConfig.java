@@ -15,7 +15,7 @@ import java.util.concurrent.*;
 /**
  * @author 3zZ.
  * Date: 2020/6/29.
- * 配置自定义异步线程池
+ * 配置自定义异步任务线程池
  */
 @Slf4j
 @EnableAsync
