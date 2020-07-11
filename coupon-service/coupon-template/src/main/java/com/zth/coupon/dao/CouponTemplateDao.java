@@ -4,12 +4,13 @@ import com.zth.coupon.entity.CouponTemplate;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author 3zZ.
  * Date: 2020/6/30.
  */
-public interface CouponTemplateDao extends JpaRepository<CouponTemplate, String> {
+public interface CouponTemplateDao extends JpaRepository<CouponTemplate, Integer> {
     /**
      * 通过名字查找相应的优惠券模板
      * where name = ...
@@ -37,5 +38,4 @@ public interface CouponTemplateDao extends JpaRepository<CouponTemplate, String>
      * @return 返回所有满足条件的优惠券模板
      */
     List<CouponTemplate> findAllByExpired(Boolean expired);
-
 }

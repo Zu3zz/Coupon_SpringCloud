@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/service/impl/BuildTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/schedule/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/service/impl/TemplateBaseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/dao/CouponTemplateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/dao/CouponTemplateDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,7 @@
       <workItem from="1593411985913" duration="5713000" />
       <workItem from="1593424518741" duration="11063000" />
       <workItem from="1593870465862" duration="2184000" />
-      <workItem from="1594401548030" duration="6168000" />
+      <workItem from="1594401548030" duration="7365000" />
     </task>
     <servers />
   </component>
@@ -200,10 +201,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593419125282" />
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1594482859267">
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1594484162261">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594482859267" />
+    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594484162261" />
     <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593412254994">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
