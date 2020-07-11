@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Date: 2020/7/11.
  */
 public class TestService {
-
+    Lesson8_1 lesson = new Lesson8_1();
 
 }
 
