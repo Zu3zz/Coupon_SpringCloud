@@ -29,7 +29,7 @@ public class ScheduledTask {
     }
 
     /**
-     * <h2>下线已过期的优惠券模板</h2>
+     * 下线已过期的优惠券模板
      */
     @Scheduled(fixedRate = 60 * 60 * 1000)
     public void offlineCouponTemplate() {
