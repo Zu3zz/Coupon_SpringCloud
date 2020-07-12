@@ -9,14 +9,14 @@ import javax.persistence.AttributeConverter;
  * @author 3zZ.
  * Date: 2020/6/29.
  */
-public class DistributeTargetConverter implements AttributeConverter<DistributeTarget, String> {
+public class DistributeTargetConverter implements AttributeConverter<DistributeTarget, Integer> {
     @Override
-    public String convertToDatabaseColumn(DistributeTarget distributeTarget) {
-        return JSON.toJSONString(distributeTarget);
+    public Integer convertToDatabaseColumn(DistributeTarget distributeTarget) {
+        return distributeTarget.getCode();
     }
 
     @Override
-    public DistributeTarget convertToEntityAttribute(String s) {
-        return null;
+    public DistributeTarget convertToEntityAttribute(Integer code) {
+        return DistributeTarget.of(code);
     }
 }

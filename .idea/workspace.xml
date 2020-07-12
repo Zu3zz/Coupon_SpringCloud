@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/controller/CouponTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/controller/CouponTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/resources/sql/create_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/resources/sql/create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/TemplateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/service/BuildTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/service/TemplateBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/target/classes/com/zth/coupon/Tmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/target/classes/com/zth/coupon/constants/DistributeTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/target/classes/com/zth/coupon/constants/DistributeTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/target/classes/com/zth/coupon/constants/ProductLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/target/classes/com/zth/coupon/constants/ProductLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/DistributeTargetConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/DistributeTargetConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/target/classes/com/zth/coupon/TemplateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/target/classes/com/zth/coupon/TemplateApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +95,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -107,7 +118,59 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TemplateApplication">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zth.coupon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TemplateBaseTest">
+    <configuration name="BuildTemplateTest.testBuildTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.coupon.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zth.coupon.service" />
+      <option name="MAIN_CLASS_NAME" value="com.zth.coupon.service.BuildTemplateTest" />
+      <option name="METHOD_NAME" value="testBuildTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zth.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.zth.coupon.TemplateApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.coupon.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zth.coupon.service" />
+      <option name="MAIN_CLASS_NAME" value="com.zth.coupon.service.TemplateBaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="coupon-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zth.coupon.EurekaApplication" />
@@ -143,6 +206,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TemplateBaseTest" />
+        <item itemvalue="JUnit.BuildTemplateTest.testBuildTemplate" />
+        <item itemvalue="JUnit.TemplateApplicationTests.contextLoad" />
         <item itemvalue="Spring Boot.TemplateApplication" />
         <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       </list>
@@ -183,7 +249,7 @@
       <workItem from="1593411985913" duration="5713000" />
       <workItem from="1593424518741" duration="11063000" />
       <workItem from="1593870465862" duration="2184000" />
-      <workItem from="1594401548030" duration="9000000" />
+      <workItem from="1594401548030" duration="10996000" />
     </task>
     <servers />
   </component>
@@ -199,30 +265,38 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593419125282" />
+    <state x="799" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594533488622">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="799" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594533488622" />
     <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1594531876264">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594531876264" />
+    <state x="798" y="403" width="567" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594532990631">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="798" y="403" width="567" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.1027@0.23.1680.1027" timestamp="1594532990631" />
     <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593412254994">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593412254994" />
-    <state width="1017" height="223" key="GridCell.Tab.0.bottom" timestamp="1593326132253">
+    <state width="1235" height="224" key="GridCell.Tab.0.bottom" timestamp="1594570115860">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1017" height="223" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
-    <state width="1017" height="223" key="GridCell.Tab.0.center" timestamp="1593326132253">
+    <state width="1235" height="224" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594570115860" />
+    <state width="1235" height="224" key="GridCell.Tab.0.center" timestamp="1594570115859">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1017" height="223" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
-    <state width="1017" height="223" key="GridCell.Tab.0.left" timestamp="1593326132253">
+    <state width="1235" height="224" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594570115859" />
+    <state width="1235" height="224" key="GridCell.Tab.0.left" timestamp="1594570115858">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1017" height="223" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
-    <state width="1017" height="223" key="GridCell.Tab.0.right" timestamp="1593326132253">
+    <state width="1235" height="224" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594570115858" />
+    <state width="1235" height="224" key="GridCell.Tab.0.right" timestamp="1594570115859">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1017" height="223" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132253" />
+    <state width="1235" height="224" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594570115859" />
     <state width="1017" height="223" key="GridCell.Tab.1.bottom" timestamp="1593326132254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -243,10 +317,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593436952250" />
-    <state x="776" y="172" width="687" height="729" key="find.popup" timestamp="1594532068150">
+    <state x="776" y="172" width="730" height="729" key="find.popup" timestamp="1594533882467">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="776" y="172" width="687" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594532068150" />
+    <state x="776" y="172" width="730" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594533882467" />
     <state x="434" y="145" key="new project wizard" timestamp="1593272692987">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
