@@ -40,7 +40,7 @@ public class CouponTemplateController {
     /**
      * 构建优惠券模板
      * 127.0.0.1:7001/coupon-template/template/build
-     * 127.0.0.1:9000/zth/coupon-template/template/build
+     * 127.0.0.1:9000/coupon/coupon-template/template/build
      */
     @PostMapping("/template/build")
     public CouponTemplate buildTemplate(@RequestBody TemplateRequest request) throws CouponException {
@@ -49,7 +49,7 @@ public class CouponTemplateController {
     }
 
     /**
-     * <h2>构造优惠券模板详情</h2>
+     * 构造优惠券模板详情
      * 127.0.0.1:7001/coupon-template/template/info?id=1
      */
     @GetMapping("/template/info")
@@ -59,7 +59,7 @@ public class CouponTemplateController {
     }
 
     /**
-     * <h2>查找所有可用的优惠券模板</h2>
+     * 查找所有可用的优惠券模板
      * 127.0.0.1:7001/coupon-template/template/sdk/all
      */
     @GetMapping("/template/sdk/all")
@@ -69,7 +69,7 @@ public class CouponTemplateController {
     }
 
     /**
-     * <h2>获取模板 ids 到 CouponTemplateSDK 的映射</h2>
+     * 获取模板 ids 到 CouponTemplateSDK 的映射
      * 127.0.0.1:7001/coupon-template/template/sdk/infos
      */
     @GetMapping("/template/sdk/infos")

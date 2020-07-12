@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/controller/CouponTemplateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/controller/HealthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/schedule/ScheduledTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/schedule/ScheduledTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/controller/CouponTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/controller/CouponTemplateController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +183,7 @@
       <workItem from="1593411985913" duration="5713000" />
       <workItem from="1593424518741" duration="11063000" />
       <workItem from="1593870465862" duration="2184000" />
-      <workItem from="1594401548030" duration="8600000" />
+      <workItem from="1594401548030" duration="9000000" />
     </task>
     <servers />
   </component>
