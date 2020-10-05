@@ -11,9 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.web.client.RestTemplate;
 
 /**
+ * 分发系统的启动入口
+ *
  * @author 3zZ.
  * Date: 2020/7/13.
- * 分发系统的启动入口
  */
 @EnableJpaAuditing
 @EnableFeignClients

@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/coupon-distribution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/DistributionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/constants/GoodsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/SettlementInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/constant/CouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/converter/CouponStatusConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/dao/CouponDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/entity/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/serialization/CouponSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/IKafkaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/IRedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/vo/AcquireTemplateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/vo/CouponClassify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/vo/CouponKafkaMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/coupon-distribution.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/DistributionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/DistributionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,58 +35,18 @@
       <executable />
     </execution>
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="coupon" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="coupon" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="coupon" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="imooc_coupon_data: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="coupon" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -87,7 +58,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -97,6 +67,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -111,7 +82,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -165,6 +136,14 @@
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistributionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-distribution" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zth.coupon.DistributionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -210,18 +189,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -245,17 +212,25 @@
       <workItem from="1593411985913" duration="5713000" />
       <workItem from="1593424518741" duration="11063000" />
       <workItem from="1593870465862" duration="2184000" />
-      <workItem from="1594401548030" duration="12382000" />
+      <workItem from="1594401548030" duration="12427000" />
+      <workItem from="1595137346301" duration="1413000" />
+      <workItem from="1599921684152" duration="362000" />
+      <workItem from="1601824316813" duration="60000" />
+      <workItem from="1601824380689" duration="38000" />
+      <workItem from="1601824447396" duration="338000" />
+      <workItem from="1601824891172" duration="442000" />
+      <workItem from="1601825338618" duration="11543000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="720" y="202" key="#Assign_Data_Sources" timestamp="1593419144207">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-823" y="-782" key="#Assign_Data_Sources" timestamp="1601830558961">
+      <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
+    <state x="-823" y="-782" key="#Assign_Data_Sources/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1601830558961" />
     <state x="720" y="202" key="#Assign_Data_Sources/0.23.1680.1027@0.23.1680.1027" timestamp="1593419144207" />
     <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593419125282">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -265,9 +240,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="799" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594533488622" />
-    <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1594531876264">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-692" y="-671" key="#com.intellij.ide.util.MemberChooser" timestamp="1601828330413">
+      <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
+    <state x="-692" y="-671" key="#com.intellij.ide.util.MemberChooser/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1601828330413" />
     <state x="873" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594531876264" />
     <state x="798" y="403" width="567" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594532990631">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -277,22 +253,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593412254994" />
-    <state width="1235" height="224" key="GridCell.Tab.0.bottom" timestamp="1594571383686">
+    <state width="1235" height="224" key="GridCell.Tab.0.bottom" timestamp="1594610988821">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1235" height="224" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594571383686" />
-    <state width="1235" height="224" key="GridCell.Tab.0.center" timestamp="1594571383685">
+    <state width="1235" height="224" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594610988821" />
+    <state width="1235" height="224" key="GridCell.Tab.0.center" timestamp="1594610988820">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1235" height="224" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594571383685" />
-    <state width="1235" height="224" key="GridCell.Tab.0.left" timestamp="1594571383685">
+    <state width="1235" height="224" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594610988820" />
+    <state width="1235" height="224" key="GridCell.Tab.0.left" timestamp="1594610988820">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1235" height="224" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594571383685" />
-    <state width="1235" height="224" key="GridCell.Tab.0.right" timestamp="1594571383685">
+    <state width="1235" height="224" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594610988820" />
+    <state width="1235" height="224" key="GridCell.Tab.0.right" timestamp="1594610988821">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1235" height="224" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594571383685" />
+    <state width="1235" height="224" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594610988821" />
     <state width="1017" height="223" key="GridCell.Tab.1.bottom" timestamp="1593326132254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -309,9 +285,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1017" height="223" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state x="481" y="153" key="SettingsEditor" timestamp="1593436952250">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-1201" y="-903" key="SettingsEditor" timestamp="1601825350758">
+      <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
+    <state x="-1201" y="-903" key="SettingsEditor/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1601825350758" />
     <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593436952250" />
     <state x="776" y="172" width="730" height="729" key="find.popup" timestamp="1594533882467">
       <screen x="0" y="23" width="1680" height="1027" />
