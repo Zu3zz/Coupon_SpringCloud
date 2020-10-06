@@ -259,14 +259,12 @@ public class RedisServiceImpl implements IRedisService {
                         getRandomExpirationTime(1, 2),
                         TimeUnit.SECONDS
                 );
-
                 return null;
             }
         };
 
         log.info("Pipeline Exe Result: {}",
-                JSON.toJSONString(
-                        redisTemplate.executePipelined(sessionCallback)));
+                JSON.toJSONString(redisTemplate.executePipelined(sessionCallback)));
 
         return coupons.size();
     }

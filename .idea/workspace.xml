@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/KafkaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/RedisServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/KafkaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/KafkaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/RedisServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
       <workItem from="1601824380689" duration="38000" />
       <workItem from="1601824447396" duration="338000" />
       <workItem from="1601824891172" duration="442000" />
-      <workItem from="1601825338618" duration="15687000" />
+      <workItem from="1601825338618" duration="19334000" />
     </task>
     <servers />
   </component>
