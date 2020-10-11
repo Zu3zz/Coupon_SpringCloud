@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author 3zZ.
  * @date 2020/10/6.
  */
-@FeignClient(value = "eureka-client-coupon-settlement", fallback = SettlementClientHystrix.class)
+@FeignClient(value = "eureka-client-coupon-settlement",
+        fallback = SettlementClientHystrix.class)
 public interface SettlementClient {
     /**
      * <h2>优惠券规则计算</h2>

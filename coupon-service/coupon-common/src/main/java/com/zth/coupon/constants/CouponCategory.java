@@ -16,15 +16,15 @@ public enum CouponCategory {
     /**
      * 满减券
      */
-    FULL_CUT("满减", "001"),
+    MANJIAN("满减", "001"),
     /**
      * 折扣券
      */
-    DISCOUNT("折扣券", "002"),
+    ZHEKOU("折扣券", "002"),
     /**
      * 立减券
      */
-    IMMEDIATE("立减券", "003");
+    LIJIAN("立减券", "003");
 
     /**
      * 优惠券描述(分类)

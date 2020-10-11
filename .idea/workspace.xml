@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779a84ca-f235-4e1a-9bae-781da461ffb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/feign/SettlementClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/feign/TemplateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/feign/hystrix/SettlementClientHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/feign/hystrix/TemplateClientHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-settlement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-settlement/src/main/java/com/zth/coupon/SettlementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-settlement/src/main/java/com/zth/coupon/constant/RuleFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-settlement/src/main/java/com/zth/coupon/controller/SettlementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-settlement/src/main/java/com/zth/coupon/executor/ExecuteManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-service/coupon-settlement/src/main/java/com/zth/coupon/executor/impl/ExecuteManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/KafkaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/KafkaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/annotation/IgnoreResponseAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/annotation/IgnoreResponseAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/exception/CouponException.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/exception/CouponException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/GoodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-common/src/main/java/com/zth/coupon/vo/GoodsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/feign/SettlementClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/feign/SettlementClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/vo/CouponClassify.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-distribution/src/main/java/com/zth/coupon/vo/CouponClassify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/CouponCategoryConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/converter/CouponCategoryConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/vo/TemplateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/main/java/com/zth/coupon/vo/TemplateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/TemplateApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-template/src/test/java/com/zth/coupon/TemplateApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +43,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,12 +86,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.21724138" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zth.coupon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coupon-service" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TemplateBaseTest">
@@ -207,7 +229,8 @@
       <workItem from="1601824380689" duration="38000" />
       <workItem from="1601824447396" duration="338000" />
       <workItem from="1601824891172" duration="442000" />
-      <workItem from="1601825338618" duration="23414000" />
+      <workItem from="1601825338618" duration="32517000" />
+      <workItem from="1602335048224" duration="1175000" />
     </task>
     <servers />
   </component>
@@ -215,15 +238,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-823" y="-782" key="#Assign_Data_Sources" timestamp="1601830558961">
+    <state x="-823" y="-782" key="#Assign_Data_Sources" timestamp="1602000369707">
       <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
-    <state x="-823" y="-782" key="#Assign_Data_Sources/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1601830558961" />
-    <state x="720" y="202" key="#Assign_Data_Sources/0.23.1680.1027@0.23.1680.1027" timestamp="1593419144207" />
-    <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593419125282">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="720" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593419125282" />
+    <state x="-823" y="-782" key="#Assign_Data_Sources/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1602000369707" />
     <state x="799" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594533488622">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -237,10 +255,6 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="798" y="403" width="567" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.1027@0.23.1680.1027" timestamp="1594532990631" />
-    <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593412254994">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="689" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1593412254994" />
     <state width="1235" height="224" key="GridCell.Tab.0.bottom" timestamp="1594610988821">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -257,35 +271,19 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1235" height="224" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594610988821" />
-    <state width="1017" height="223" key="GridCell.Tab.1.bottom" timestamp="1593326132254">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1017" height="223" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state width="1017" height="223" key="GridCell.Tab.1.center" timestamp="1593326132254">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1017" height="223" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state width="1017" height="223" key="GridCell.Tab.1.left" timestamp="1593326132254">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1017" height="223" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state width="1017" height="223" key="GridCell.Tab.1.right" timestamp="1593326132254">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1017" height="223" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1593326132254" />
-    <state x="-1201" y="-903" key="SettingsEditor" timestamp="1601825350758">
+    <state x="-1280" y="-903" key="SettingsEditor" timestamp="1602335117794">
       <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
-    <state x="-1201" y="-903" key="SettingsEditor/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1601825350758" />
-    <state x="481" y="153" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593436952250" />
+    <state x="-1280" y="-903" key="SettingsEditor/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1602335117794" />
     <state x="-775" y="-856" width="699" height="1801" key="find.popup" timestamp="1601910591436">
       <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
     <state x="-775" y="-856" width="699" height="1801" key="find.popup/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1601910591436" />
     <state x="776" y="172" width="730" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594533882467" />
-    <state x="434" y="145" key="new project wizard" timestamp="1594571377484">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-1440" y="-923" key="new project wizard" timestamp="1602335180908">
+      <screen x="-1440" y="-1224" width="1440" height="2537" />
     </state>
+    <state x="-1440" y="-923" key="new project wizard/-1440.-1224.1440.2537/0.23.1680.1027@-1440.-1224.1440.2537" timestamp="1602335180908" />
     <state x="434" y="145" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1594571377484" />
     <state x="730" y="23" width="838" height="1027" key="search.everywhere.popup" timestamp="1594571469587">
       <screen x="0" y="23" width="1680" height="1027" />

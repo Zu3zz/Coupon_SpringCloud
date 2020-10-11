@@ -188,9 +188,10 @@ public class RedisServiceImpl implements IRedisService {
 
         return needCachedObject.size();
     }
+
     /**
      * <h2>将已使用的优惠券加入到 Cache 中</h2>
-     * */
+     */
     @SuppressWarnings("all")
     private Integer addCouponToCacheForUsed(Long userId, List<Coupon> coupons)
             throws CouponException {
@@ -271,7 +272,7 @@ public class RedisServiceImpl implements IRedisService {
 
     /**
      * <h2>将过期优惠券加入到 Cache 中</h2>
-     * */
+     */
     @SuppressWarnings("all")
     private Integer addCouponToCacheForExpired(Long userId, List<Coupon> coupons)
             throws CouponException {

@@ -53,7 +53,6 @@ public class CouponClassify {
             // 判断优惠券是否过期
             boolean isTimeExpire;
 
-            // long curTime = new Date().getTime();
             long curTime = System.currentTimeMillis();
 
             if (c.getTemplateSDK().getRule().getExpiration().getPeriod().equals(

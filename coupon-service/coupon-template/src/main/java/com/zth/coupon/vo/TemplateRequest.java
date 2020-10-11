@@ -53,6 +53,7 @@ public class TemplateRequest {
      * 优惠券规则
      */
     private TemplateRule rule;
+
     /**
      * 校验对象的合法性
      */

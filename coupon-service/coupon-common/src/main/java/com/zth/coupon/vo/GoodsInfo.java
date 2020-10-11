@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * <h1>商品信息</h1>
+ *
  * @author 3zZ.
  * @date 2020/10/5.
  */

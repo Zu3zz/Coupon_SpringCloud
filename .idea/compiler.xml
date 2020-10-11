@@ -8,12 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="coupon-common" />
-        <module name="coupon-distribution" />
-        <module name="coupon-gateway" />
         <module name="coupon-eureka" />
         <module name="coupon-template" />
+        <module name="coupon-distribution" />
+        <module name="coupon-gateway" />
+        <module name="coupon-settlement" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="coupon-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -22,6 +26,7 @@
       <module name="coupon-eureka" options="-parameters" />
       <module name="coupon-gateway" options="-parameters" />
       <module name="coupon-service" options="-parameters" />
+      <module name="coupon-settlement" options="-parameters" />
       <module name="coupon-template" options="-parameters" />
     </option>
   </component>
