@@ -48,7 +48,7 @@ public class BuildTemplateTest {
         request.setName("优惠券模板-" + new Date().getTime());
         request.setLogo("http://www.imooc.com");
         request.setDesc("这是一张优惠券模板");
-        request.setCategory(CouponCategory.IMMEDIATE.getCode());
+        request.setCategory(CouponCategory.LIJIAN.getCode());
         request.setProductLine(ProductLine.BIG_DOG.getCode());
         request.setCount(10000);
         request.setUserId(10001L);  // fake user id

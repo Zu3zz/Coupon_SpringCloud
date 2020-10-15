@@ -15,6 +15,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * <h1>优惠券结算规则执行管理器</h1>
+ * 即根据用户的请求(SettlementInfo)找到对应的 Executor, 去做结算
+ * BeanPostProcessor: Bean 后置处理器
+ *
  * @author 3zZ.
  * @date 2020/10/11.
  */
@@ -71,6 +75,7 @@ public class ExecuteManager implements BeanPostProcessor {
                     categories.add(CouponCategory.of(
                             ct.getTemplateSDK().getCategory()
                     )));
+            // 只允许两种优惠券叠加 TODO 后续可以优化
             if (categories.size() != 2) {
                 throw new CouponException("Not Support For More " +
                         "Template Category");
